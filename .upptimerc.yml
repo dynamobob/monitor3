@@ -3,7 +3,7 @@ owner: dynamobob # Your GitHub organization or username, where this repository l
 repo: monitor3 # The name of this repository
 
 sites:
-  - name: Google
+  - name: SMH
     url: https://www.smh.com.au
   - name: Wikipedia
     url: https://en.wikipedia.org
@@ -17,13 +17,13 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   #cname: demo.upptime.js.org
   baseUrl: /monitor3
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  #logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Monitor
   #introTitle: ""
   #introMessage:
-  #navbar:
-  #  - title: Status
-  #    href: /
+  navbar:
+    - title: Status
+      href: /
   #  - title: GitHub
   #    href: https://github.com/$OWNER/$REPO
       
